@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@arcana/auth": "^1.0.8"
+  }
+}

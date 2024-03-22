@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div
+        class="flex items-center overflow-hidden py-2 px-6 border-slate-100 mt-0 border-b bg-white md:justify-between"
+      >
+        <div class="flex flex-row items-center space-x-4 logo">
+          <img
+            alt="PrakritiMilan-logo"
+            loading="lazy"
+            width="28"
+            height="28"
+            decoding="async"
+            data-nimg="1" 
+            src="./logomain.jpeg"
+            style="color: transparent"
+          />
+          <div
+            class="ml-[20px] text-[14px] uppercase tracking-[4px] font-medium font-raleway text-slate-900"
+          >
+            PrakritiMilan
+          </div>
+        </div>
+        <div class="hidden md:flex flex-row items-center gap-2">
+          <ul class="hidden text-[15px] gap-10 md:flex">
+              <a href="https://calendly.com/akidwai-college/personalized-consultation-session?month=2024-01">Book a call </a>
+            </li>
+          </ul>
+          <a
+            href="https://github.com/Amm4r03/hackJNU-24-JH"
+            ><button
+              class="sm:hidden md:flex ml-8 w-max items-center flex-row gap-2 hover:bg-zinc-100 transition-[all] duration-300 rounded-lg border border-slate-200 px-3 py-1 text-slate-600"
+            >
+              <span
+                ><svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.97942 1.25171L6.9585 1.30199L5.58662 4.60039C5.54342 4.70426 5.44573 4.77523 5.3336 4.78422L1.7727 5.0697L1.71841 5.07405L1.38687 5.10063L1.08608 5.12475C0.820085 5.14607 0.712228 5.47802 0.914889 5.65162L1.14406 5.84793L1.39666 6.06431L1.43802 6.09974L4.15105 8.42374C4.23648 8.49692 4.2738 8.61176 4.24769 8.72118L3.41882 12.196L3.40618 12.249L3.32901 12.5725L3.25899 12.866C3.19708 13.1256 3.47945 13.3308 3.70718 13.1917L3.9647 13.0344L4.24854 12.861L4.29502 12.8326L7.34365 10.9705C7.43965 10.9119 7.5604 10.9119 7.6564 10.9705L10.705 12.8326L10.7515 12.861L11.0354 13.0344L11.2929 13.1917C11.5206 13.3308 11.803 13.1256 11.7411 12.866L11.671 12.5725L11.5939 12.249L11.5812 12.196L10.7524 8.72118C10.7263 8.61176 10.7636 8.49692 10.849 8.42374L13.562 6.09974L13.6034 6.06431L13.856 5.84793L14.0852 5.65162C14.2878 5.47802 14.18 5.14607 13.914 5.12475L13.6132 5.10063L13.2816 5.07405L13.2274 5.0697L9.66645 4.78422C9.55432 4.77523 9.45663 4.70426 9.41343 4.60039L8.04155 1.30199L8.02064 1.25171L7.89291 0.944609L7.77702 0.665992C7.67454 0.419604 7.32551 0.419604 7.22303 0.665992L7.10715 0.944609L6.97942 1.25171ZM7.50003 2.60397L6.50994 4.98442C6.32273 5.43453 5.89944 5.74207 5.41351 5.78103L2.84361 5.98705L4.8016 7.66428C5.17183 7.98142 5.33351 8.47903 5.2204 8.95321L4.62221 11.461L6.8224 10.1171C7.23842 9.86302 7.76164 9.86302 8.17766 10.1171L10.3778 11.461L9.77965 8.95321C9.66654 8.47903 9.82822 7.98142 10.1984 7.66428L12.1564 5.98705L9.58654 5.78103C9.10061 5.74207 8.67732 5.43453 8.49011 4.98442L7.50003 2.60397Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path></svg></span
+              ><span> Star Us on Github</span>
+            </button></a
+          >
+          <div class="navbar">
+            <!-- Other navbar items on the left -->
+          
+            <div class="user-profile">
+              <input type="checkbox" id="profileToggle" class="profile-toggle">
+              <label for="profileToggle" class="profile-button">
+                <img src="./Designer (6).jpeg" alt="User Profile Picture" class="user-picture">
+                <span class="user-name">Ayush</span>
+              </label>
+            </div>
+          
+            
+          </div>
+          
+          
+        </div>
+        <div class="ml-auto md:hidden">
+          <svg width="24" height="24">
+            <rect width="24" height="3" y="3" fill="#6D6D6D" rx="3"></rect>
+            <rect width="24" height="3" y="10.5" fill="#6D6D6D" rx="3"></rect>
+            <rect width="24" height="3" y="18" fill="#6D6D6D" rx="3"></rect>
+          </svg>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<div class="container">
+  <section class="">
+                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                     <div class="carousel-inner rounded-2">
+                         <div class="carousel-item active">
+                             <img src="./img1.jpeg" class="d-block w-100" alt="cover img 1" />
+                             <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-items-center">
+                                 <h1></h1>
+                                 <p>.</p>
+                                 <a href="https://web.telegram.org/k/#1986914804" class="btn btn-primary">Join the Community</a>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img src="./img2.jpeg" class="d-block w-100" alt="cover img 1" />
+                             <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-items-center">
+                                 <h1></h1>
+                                 <p></p>
+                                 <a href="https://web.telegram.org/k/#1986914804" class="btn btn-primary">Join the Community</a>
+                             </div>
+                         </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                     </button>
+                 </div>
+             </section>
+ </div>
+ <div class="container">
+     <h1>Glimpses of Our Project</h1>
+             <div class="video-container">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/yA9ZxyE6ALo?si=mD1sQjV-sCo8b7-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kU9Lf7ZrfCc?si=uZ-LqsA80euaw0Fa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/1jSKIbnNMXg?si=DU8Qy7NjR0DnghaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </div>
+ </div>
+   
+ <div class="container">
+ 
+ <h1>Experience Center</h1>
+     <div class="image-container">
+         <div>
+             <img src="./qr1.jpeg" alt="Invitation Card">
+             <p>This is an invitation card in AR</p>
+         </div>
+         <div>
+             <img src="./Qrcode2.jpeg" alt="Venue">
+             <p>This is the venue</p>
+         </div>
+     </div>
+     
+ </div>
+ </div>
+ <div class="container">
+     <div class="w-75 mb-4 mx-auto text-center">
+         <h1>Some Data by PrakritiMilan</h1>
+     </div>  
+     <div class="video-container">
+         <img src="./dt1.jpeg" width="300" height="200">
+         <img src="./dt2.jpeg" width="300" height="200">
+         <img src="./dt3.jpeg" width="300" height="200">
+         <img src="./dt4.jpeg" width="300" height="200">
+         <img src="./dt5.jpeg" width="300" height="200">
+         <img src="./dt6.jpeg" width="300" height="200">
+         <img src="./dt7.jpeg" width="300" height="200">
+         <img src="./dt8.jpeg" width="300" height="200">
+         <img src="./dt9.jpeg" width="300" height="200">
+     </div>
+ 
+ </div>
+ 
+ 
+ <div class="container">
+     <div class="w-75 mb-4 mx-auto text-center">
+     <h1>How PrakritiMilan Works</h1> 
+ </div>  
+     <img src="./data.jpeg" alt="DAta" >
+     
+ </div>
+ 
+ <div class="container">
+     <div class="w-75 mb-4 mx-auto text-center">
+         <h1>We are Targeting 6 sustainable development goals - united nations</h1>
+     </div>  
+     <div class="video-container">
+         <img src="./Poverty.jpeg" width="300" height="200">
+         <img src="./Cities.jpeg" width="300" height="200">
+         <img src="./hunger.jpeg" width="300" height="200">
+         <img src="./SDG_report_2023_infographics_Goal 8.jpg" width="300" height="200">
+         <img src="./SDG_report_2023_infographics_Goal 13.jpg" width="300" height="200">
+         <img src="./SDG_report_2023_infographics_Goal 15.jpg" width="300" height="200">
+      
+     </div> 
+ </div>
+ 
+ 
+ <div class="container">
+     <div class="w-75 mb-4 mx-auto text-center"> 
+         <h2 class="mt-4">Do you know all 17 SDGs?</h2>
+     </div>
+ 
+     <div class="row">
+         <div class="col-12">
+             <div class="embed-responsive embed-responsive-16by9">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0XTBYMfZyrM?si=opMPj35ku8xJbU9j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+ 
+ 
+ <div class="container">
+     <div class="w-75 mb-4 mx-auto text-center"> 
+     <h1>Pricing</h1>
+     
+     <p>Start Your Sustainable Marriage Ceremonies Today</p>
+ </div>
+ </div>
+ 
+ 
+ <div class="container">
+ <div class="px-6 mt-8 w-full flex items-center justify-start gap-6 overflow-x-auto no-scrollbar md:justify-center"><div class="self-stretch shrink-0 flex-1 min-w-[320px] max-w-[360px] justify-between flex flex-col border-[1px] rounded-lg border-slate-400 pt-12 pb-4 px-5 bg-white" style="border-color:#a3a9c0"><div class="flex flex-col items-center gap-8"><span class="text-2xl bg-blueGradient bg-clip-text text-transparent">Starter</span><p class="text-slate-800 text-5xl font-thin font-space mb-6">$1500</p><ul><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>3 Star Venue and F&B</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Best Decoration &amp; AR Wedding Card</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>300 Guest Capacity</li></ul></div><a href="https://calendly.com/akidwai-college/personalized-consultation-session?month=2024-02" target="_blank" class="mt-10 w-full text-center py-2 border rounded-lg cursor-pointer text-blue-500 bg-transparent border-blue-800 text-blue-900 hover:bg-black hover:text-zinc-100">Get Started</a></div><div class="self-stretch shrink-0 flex-1 min-w-[320px] max-w-[360px] justify-between flex flex-col border-[1px] rounded-lg border-slate-400 pt-12 pb-4 px-5 bg-white" style="border-color:#a3a9c0"><div class="flex flex-col items-center gap-8"><span class="text-2xl bg-blueGradient bg-clip-text text-transparent">Best Nature</span><p class="text-slate-800 text-5xl font-thin font-space mb-6">$5000</p><ul><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>4 Star Venue and F&B</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Best Decoration & AR Wedding Card</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Customer Support</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>700 Guest Capacity </li></ul></div><a href="https://calendly.com/akidwai-college/personalized-consultation-session?month=2024-02" target="_blank" class="mt-10 w-full text-center py-2 border rounded-lg cursor-pointer text-blue-500 bg-transparent border-blue-800 text-blue-900 hover:bg-black hover:text-zinc-100">Get Started</a></div><div class="self-stretch shrink-0 flex-1 min-w-[320px] max-w-[360px] justify-between flex flex-col border-[1px] rounded-lg border-slate-400 pt-12 pb-4 px-5 bg-gradient-to-b from-white via-white via-70% to-blue-100 to-95%" style="border-color:#3399ff"><div class="flex flex-col items-center gap-8"><span class="text-2xl bg-blueGradient bg-clip-text text-transparent">Evaluate</span><p class="text-slate-800 text-5xl font-thin font-space mb-6">Custom</p><ul><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>5 Star Venue and F&B </li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Best Decoration and Unlimeted AR Wedding Card</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Personalized Support</li><li class="mb-3 text-lg flex gap-2 items-center text-gray-400"><div class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>1k Guest Capacity  </li></ul></div><a href="https://calendly.com/akidwai-college/personalized-consultation-session?month=2024-02" target="_blank" class="mt-10 w-full text-center py-2 border rounded-lg cursor-pointer text-blue-500 bg-transparent border-blue-800 text-blue-900 hover:bg-black hover:text-zinc-100">Get Started</a></div><div class="self-stretch shrink-0 flex-1 min-w-[320px] max-w-[360px] justify-between flex flex-col border-[1px] rounded-lg border-slate-400 pt-12 pb-4 px-5 bg-black hover:bg-zinc-900" style="border-color:#000000"><div class="flex flex-col items-center gap-8"><span class="text-2xl text-white">Enterprise</span><p class="text-white text-5xl font-thin font-space mb-6">Custom</p><ul><li class="mb-3 text-lg flex gap-2 items-center text-white"><div class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Custom Decoration & AR Wedding card</li><li class="mb-3 text-lg flex gap-2 items-center text-white"><div class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Unlimited Guests</li><li class="mb-3 text-lg flex gap-2 items-center text-white"><div class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Personalized Support</li><li class="mb-3 text-lg flex gap-2 items-center text-white"><div class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.5 8-6.875 7L6.5 11.818"></path></svg></div>Custom Venues Domestic or International</li></ul></div><a href="https://calendly.com/akidwai-college/personalized-consultation-session?month=2024-02" target="_blank" class="mt-10 w-full text-center py-2 border rounded-lg cursor-pointer text-blue-500 bg-zinc-950 text-white border-zinc-600 font-bold" style="transform: none;">Contact Us</a></div></div>
+ </div>
+             <!-- FAQ accordion  -->
+ 
+             <section class="col-12 col-md-10 col-lg-10 my-4 mx-auto">
+                 <div class="w-75 mb-4 mx-auto text-center">
+                     <h1>Frequently Asked Questions</h1>
+                     <p>A comprehensive list of frequently asked questions and their corresponding answers to help you better understand and address any concerns you may have before making a purchase or using our services.</p>
+                 </div>
+ 
+                 <div class="faq-question col-12 col-md-10 col-lg-8 mx-auto">
+                     <div class="accordion" id="accordionPanelsStayOpenExample">
+                         <div class="accordion-item">
+                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                 <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                     Why should I have a sustainable wedding?
+                                 </button>
+                             </h2>
+                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                 <div class="accordion-body">
+                                     <p>
+                                          By choosing a sustainable wedding, you're making a positive statement about your commitment to the environment and fighting climate change. You can also save money by reducing waste and choosing recycled or reusable items
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="accordion-item">
+                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                 <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                      Is a sustainable wedding still as beautiful as a traditional wedding?
+                                 </button>
+                             </h2>
+                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                 <div class="accordion-body">
+                                     <p>
+                                        Absolutely! Sustainable weddings can be just as stunning and memorable as traditional ones. There are many creative ways to incorporate eco-friendly elements into your décor, attire, and menu without sacrificing aesthetics.
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+ 
+                         <div class="accordion-item">
+                             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                 <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                     Can I change our pricing plans once the proceedings start?
+                                 </button>
+                             </h2>
+                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                 <div class="accordion-body">
+                                     <p> YES, you can change the pricing plan before the commencement of proceedings. Contact our team for so</p>
+                                 </div>
+                             </div>
+                         </div>
+ 
+                         <div class="accordion-item">
+                             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                 <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                      How can I know how much I've contributed to nature?
+ 
+                                 </button>
+                             </h2>
+                             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                 <div class="accordion-body">
+                                     <p>
+                                         For every product that you reuse we will list it against your profile which will showcase the actual money and emission saved.
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+ 
+ 
+              <footer class="px-2 py-5 p-lg-5 p-md-5 bg-dark text-light">
+             <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                 <h2>PrakritiMilan</h2>
+                 <p>Jawharlal Nehru University, New Mehrauli Road, JNU Ring Rd, New Delhi, 110067</p>
+                 <nav>
+                     <ul class="d-flex footer-menu justify-content-center">
+                         <li class="px-2">Privacy Ploicy</li>
+                         <li class="px-2">|</li>
+                         <li class="px-2">Terms of use</li>
+                     </ul>
+                 </nav>
+ 
+                 <!-- <div class="text-center text-white socil-media">
+                     <ul class="d-flex footer-menu justify-content-center">
+                         <li class="px-md-2">
+                             <a href="https://www.facebook.com/ayushjhax"><i class="fa-brands fa-facebook-f"></i></a>
+                         </li>
+                         <li class="px-2">
+                             <a href="https://twitter.com/ayushjhax"><i class="fa-brands fa-twitter"></i></a>
+                         </li>
+                         <li class="px-2">
+                             <a href="https://www.linkedin.com/in/ayushjhax"><i class="fa-brands fa-linkedin-in"></i></a>
+                         </li>
+                         <li class="px-2">
+                             <a href="https://www.youtube.com/ayushjhax"><i class="fa-brands fa-youtube"></i></a>
+                         </li>
+                     </ul>
+                 </div> -->
+             </div>
+         </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

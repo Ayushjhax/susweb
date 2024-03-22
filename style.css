@@ -1,0 +1,14 @@
+.btn {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 5px;
+    text-align: center;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+}
