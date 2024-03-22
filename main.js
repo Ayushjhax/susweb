@@ -10,8 +10,6 @@ setHooks();
 window.onload = async () => {
   await auth.init();
   console.log("Auth initialization complete");
-
-  // Check if the user is authenticated
   if (auth.isAuthenticated()) {
     hideSignUpButton();
   }
@@ -20,17 +18,13 @@ window.onload = async () => {
 function setHooks() {
   provider("connect", async (params) => {
     console.log({ type: "connect", params: params });
-
-    // Assuming "connect" indicates successful authentication
     hideSignUpButton();
   });
 }
 
 function hideSignUpButton() {
-  // Get the register button element
   const registerButton = document.getElementById("registerLink");
 
-  // If the user is authenticated, hide the registration button
   if (registerButton) {
     registerButton.style.display = "none";
   }
