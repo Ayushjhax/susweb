@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding : 0;
+    color: #72215F
+}
+
+#logo
+{
+    height: 50px;
+}
+
+header 
+{
+    padding: 0.5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.rightHeader
+{
+    margin-right: 2vw;
+    width: 25vw;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: Inter;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer
+{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 98.5%;
+    background-color: #3b1131;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.mainText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 50%;
+    padding-top: 5em;
+    margin: 0.5em;
+}
+
+#heading
+{
+    text-align: center;
+    font-size: 3.5em;
+    /* border: 1px solid orange; */
+}
+
+#subt
+{
+    margin-top: 1em;
+    /* border: 1px solid red; */
+}
+
+.main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid pink; */
+}
