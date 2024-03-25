@@ -85,3 +85,103 @@ footer
     justify-content: center;
     /* border: 1px solid pink; */
 }
+
+.signIn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signInContainer
+{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 3.5vw 10vw 2vw 10vw;
+    /* padding: 4vw; */
+}
+
+.leftContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2em;
+    padding: 4vw;
+    align-items: center;
+    border: 2px solid #581F4C;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.btn {
+    display: block;
+    background-color: white;
+    border: 1px solid #581F4C;
+    color: #581F4C;
+    padding: 1em 2em;
+    font-size: 0.8rem;
+    font-weight: 500;;
+    font-family: Inter;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 5px;
+    text-align: center;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    transition: background-color 0.1s linear;
+}
+
+.btn:hover
+{
+    color: white;
+    background-color: #581F4C;
+}
+
+.btn:active
+{
+    color: white;
+    background-color:#3b1131;
+}
+
+.xar-header-heading
+{
+    color: white;
+}
+
+.xar-header-subtext
+{
+    color: white;
+}
+
+.xar-separator
+{
+    color: white;
+}
+
+.rightContainer
+{
+    justify-content:center;
+    font-size: 0.8em;
+    line-height: 2.5em;
+    width: 70%;
+    /* padding: 4vw; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #581F4C;
+    border-top: 2px solid #581F4C;
+    border-bottom: 2px solid #581F4C;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#small
+{
+    font-weight: 500;
+    font-size: 0.9em;
+}
