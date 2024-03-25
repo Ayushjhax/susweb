@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Prakriti Milan</title>
     <link rel="stylesheet" href="../calendlyPage/signInStyle.css">
     <link rel="icon" href="../assets/logo/logo-circular.png" type="image/x-icon">
-    <title>Sign in</title>
 </head>
 <body>
     
@@ -20,7 +20,34 @@
         </div>
     </header>
 
-
+    <div class="signIn">
+        <div class="signInContainer">
+            <div class="leftContainer">
+                <p id="qrText">sign in using QR code</p>
+                <img src="https://via.placeholder.com/250x250" alt="Placeholder Image">
+            </div>
+            <div class="rightContainer">
+                <div class="signInHeading"><h1>Welcome back! Sign in</h1></div>
+                <div class="arcanaButtonandText">
+                    <p id="small">Authenticate using Arcana</p>
+                    <div class="ArcanaButton">
+                        <div> 
+                            <div>
+                                <button class="btn" onclick="connect()">Log In Securely</button>
+                              </div>
+                              <script
+                                src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+                                type="application/javascript"
+                              ></script>
+                              
+                              <script src="../node_modules/@arcana/auth/dist/standalone/auth.umd.js"></script>
+                              <script src="../main.js"></script>
+                               
+                         </div>
+                    </div>
+            </div>
+        </div>
+    </div>
 
     <footer>&copy; Prakriti Milan | 2024</footer>
 </body>
