@@ -33,5 +33,5 @@ function hideSignUpButton() {
 async function connect() {
   const provider = await auth.connect();
   alert("Successfully connected");
-  window.location.href = "front.html";
+  window.location.href = "../front.html";
 }
