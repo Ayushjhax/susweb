@@ -159,7 +159,6 @@ ul {
 
 audio,canvas,embed,iframe,img,object,svg,video {
   display: block;
-  vertical-align: middle
 }
 
 img,video {
@@ -908,6 +907,14 @@ img,video {
 
 .text-\[28px\] {
   font-size: 28px
+}
+
+.user-picture
+{
+  height: 50px;
+  width: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
 }
 
 @media (max-width: 424px) {
